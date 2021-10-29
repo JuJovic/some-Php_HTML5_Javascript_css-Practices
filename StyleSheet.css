@@ -1,0 +1,228 @@
+/*ALLES*/
+html, body {
+    background-image: url("./hintergrund4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100%;
+    font-family: Candara, Arial;
+}
+
+h1 {
+    font-size: 3.3em;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.2em;
+    text-align: center;
+    font-weight: 500;
+}
+/*ALLES*/
+
+/*UEBERSICHT*/
+.uebersicht {
+    padding-bottom: 2em; 
+    margin-left: 2em;
+    margin-right: 2em;
+    background-color: rgb(238, 238, 238, 0.5);
+}
+
+.uebersicht h1 {
+    font-size: 2.3em;
+    text-align: center;
+}
+
+.uebersicht input[type="button"] {
+    font-size: 1em;
+    background-color: #47a2b9;
+    width: 40%;
+    box-sizing: border-box;
+    border: none;
+    padding: 1em 2em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: auto;
+    display: block;
+}
+/*UEBERSICHT*/
+
+/*KUNDE*/
+.kunde {
+    padding-bottom: 2em; 
+    margin-left: 2em;
+    margin-right: 2em;
+    background-color: rgb(238, 238, 238, 0.5);
+}
+.kunde h1 {
+    font-size: 2.3em;
+    text-align: center;
+}
+.kunde h2 {
+    font-size: 1.2em;
+    text-align: center;
+    font-weight: 700;
+}
+.kunde ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 1.2em;
+}
+.buttonKunde {
+    background-color: #47a2b9;
+    width: auto;
+    box-sizing: border-box;
+    border: none;
+    padding: 1em 2em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: auto;
+    display: block;
+}
+/*KUNDE*/
+
+/*BAECKER*/
+.baecker h2 {
+    margin-top: 0.3em;
+    font-size: 1.5em;
+    font-weight: 900;
+    text-align: left;
+}
+.baecker .bn {
+    color: #169bbd;
+    font-size: 0.95em;
+    font-weight: 700;
+}
+.baecker label {
+    font-style: italic;
+}
+.baecker {
+    background-color: rgb(238, 238, 238, 0.5);
+}
+/*BAECKER*/
+
+/*FAHRER*/
+.fahrer h2 {
+    margin-top: 0.3em;
+    font-weight: 900;
+    font-size: 1.3em;
+    text-align: left;
+}
+#anstehendeLieferung {
+    margin-left: 0.9em;
+    font-weight: 600;
+}
+.fahrer .gesamtPreis {
+    font-weight: 600;
+    font-size: 1.2em;
+    color: #169bbd;
+}
+.fahrer label {
+    font-style: italic;
+}
+.fahrer {
+    background-color: rgb(238, 238, 238, 0.5);
+}
+/*FAHRER*/
+
+/*BESTELLUNG*/
+.content {
+    text-align: center;
+    max-width: 75%;
+    margin: auto;
+    height: auto;
+}
+
+.menue {
+    width: 100%;
+    float: left;
+}
+
+.picture {
+    float: left;
+    width: 30%;
+    margin: 1em;
+    text-align: center;
+}
+
+.picture img {
+    width: 80%;
+    height: auto;
+}
+
+#warenkorb{
+    width: 50%;;
+    box-sizing: border-box;
+    resize: vertical;
+    background-color: rgb(238, 238, 238);
+}
+
+.cart {
+    width: 45%;
+    height: 25%;
+    padding: 1em;
+    float: left;
+    text-align: center;
+    overflow: auto;
+}
+
+.cart h2 {
+    font-size: 1.4em;
+    font-weight: 600;
+    text-align: center;
+}
+
+.info {
+    width: 45%;
+    height: 25%;
+    padding: 1em;
+    float: left;
+    text-align: center;
+    overflow: auto;
+}
+
+.info h2 {
+    font-size: 1.4em;
+    font-weight: 600;
+    text-align: center;
+}
+
+.info input[type=text] {
+    width: 50%;;
+    box-sizing: border-box;
+    margin: 1.15em;
+    padding: 0.5em;
+    resize: vertical;
+    background-color: rgb(238, 238, 238);
+}
+/*BESTELLUNG*/
+
+.button {
+    font-size: 1em;
+    background-color: #47a2b9;
+    width: auto;
+    box-sizing: border-box;
+    border: none;
+    padding: 1em 2em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 1em;
+}
+
+@media screen and (max-width: 1000px){
+
+    .menue, .cart, .picture, .info {
+        width: 100%;
+        margin-top: 0;
+    }
+
+    .content {
+        max-width: 100%;
+        margin: auto;
+    }
+
+}
